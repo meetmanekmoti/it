@@ -1,0 +1,15 @@
+<script >
+function validate() {
+if( document.myForm.Name.value == "" )
+{
+alert( "Please provide your name!" );
+document.myForm.Name.focus() ; 
+return false;
+}
+
+document.myForm.Zip.value.length != 5 ) {
+alert( "Please provide a zip in the format #####." );
+document.myForm.Zip.focus() ;
+return false; }
+}
+</script>
